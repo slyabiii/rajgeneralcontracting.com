@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 div{
     position: absolute;
@@ -13,4 +13,10 @@ div{
 @media all and (max-width:480px) {
     img {display:block;
         margin:0 auto;}
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
